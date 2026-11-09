@@ -23,7 +23,7 @@ public class Auto_suggest_Dropdown {
         driver.findElement(By.name("q")).sendKeys("selenium");
 
         // Wait for suggestions to load
-        //Thread.sleep(5000);
+        Thread.sleep(5000);
 
         // Capture all search suggestions
         List<WebElement> list = driver.findElements(By.xpath("//ul[@role='listbox']//li//div[@role='option']"));
