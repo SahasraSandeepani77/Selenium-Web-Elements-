@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/(B)/Ashan/SeleniumY/src/test/java/testNG/Webdriver.java"><classes><class name="testNG.Webdriver"><methods><include name="openapp"/><include name="testlogo"/><include name="testlogin"/><include name="closeapp"/></methods></class></classes></test></suite>
